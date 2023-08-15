@@ -1,0 +1,97 @@
+[
+  {
+    "Job title": "IT",
+    "Vacancy name": "Tuyển dụng thực tập sinh 1",
+    "Hiring manager": "Khang Quach",
+    "Number of positions": 10,
+    "Description": "test",
+    "Expected result": "success"
+  },
+  {
+    "Job title": "",
+    "Vacancy name": "Tuyển dụng thực tập sinh 2",
+    "Hiring manager": "Khang Quach",
+    "Number of positions": 10,
+    "Description": "test",
+    "Expected result": "fail"
+  },
+  {
+    "Job title": "Test job",
+    "Vacancy name": "Tuyển dụng thực tập sinh 3",
+    "Hiring manager": "Khang Quach",
+    "Number of positions": 10,
+    "Description": "test",
+    "Expected result": "success"
+  },
+  {
+    "Job title": "IT",
+    "Vacancy name": "",
+    "Hiring manager": "Khang Quach",
+    "Number of positions": 10,
+    "Description": "test",
+    "Expected result": "fail - Vacancy name rỗng"
+  },
+  {
+    "Job title": "IT",
+    "Vacancy name": "Tuyển dụng thực tập sinh 1",
+    "Hiring manager": "Khang Quach",
+    "Number of positions": 10,
+    "Description": "test",
+    "Expected result": "fail - trùng tên"
+  },
+  {
+    "Job title": "IT",
+    "Vacancy name": "Tuyển dụng thực tập sinh 4",
+    "Hiring manager": "",
+    "Number of positions": 10,
+    "Expected result": "fail - Hiring manager rỗng"
+  },
+  {
+    "Job title": "IT",
+    "Vacancy name": "Tuyển dụng thực tập sinh 5",
+    "Hiring manager": "test manager abcxyz",
+    "Number of positions": 10,
+    "Description": "test",
+    "Expected result": "fail"
+  },
+  {
+    "Job title": "IT",
+    "Vacancy name": "Tuyển dụng thực tập sinh 6",
+    "Hiring manager": "Khang Quach",
+    "Number of positions": -1,
+    "Description": "test",
+    "Expected result": "fail - Number of positions < 0"
+  },
+  {
+    "Job title": "IT",
+    "Vacancy name": "Tuyển dụng thực tập sinh 7",
+    "Hiring manager": "Khang Quach",
+    "Number of positions": 10.1,
+    "Description": "test",
+    "Expected result": "fail - Không phải số nguyên không âm"
+  },
+  {
+    "Job title": "IT",
+    "Vacancy name": "Tuyển dụng thực tập sinh 8",
+    "Hiring manager": "Khang Quach",
+    "Number of positions": "abc",
+    "Description": "test",
+    "Expected result": "fail - Không phải số nguyên không âm"
+  },
+  {
+    "Job title": "IT",
+    "Vacancy name": "Tuyển dụng thực tập sinh 9",
+    "Hiring manager": "Khang Quach",
+    "Number of positions": 100000000000,
+    "Description": "test",
+    "Expected result": "fail - số lớn hơn số nguyên dương 2 chữ số"
+  },
+  {
+    "Job title": "IT",
+    "Vacancy name": "Tuyển dụng thực tập sinh 10",
+    "Hiring manager": "Khang Quach",
+    "Number of positions": 10,
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Expected result": "success"
+  }
+]

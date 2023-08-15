@@ -1,0 +1,107 @@
+[
+  {
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 10/week",
+    "Minimum rating": 0,
+    "Maximum rating": 100,
+    "Expected output": "success"
+  },
+  {
+    "Job title": "",
+    "Key Performance Indicator": "Commit > 10/week",
+    "Minimum rating": 0,
+    "Maximum rating": 100,
+    "Expected output": "fail"
+  },
+  {
+    "Job title": "HR",
+    "Key Performance Indicator": "",
+    "Minimum rating": 0,
+    "Maximum rating": 100,
+    "Expected output": "fail"
+  },
+  {
+    "Job title": "HR",
+    "Key Performance Indicator": "Review performance > 10/week",
+    "Minimum rating": -1,
+    "Maximum rating": 100,
+    "Expected output": "fail"
+  },
+  {
+    "Job title": "HR",
+    "Key Performance Indicator": "Review performance > 15/week",
+    "Minimum rating": 1,
+    "Maximum rating": 101,
+    "Expected output": "fail"
+  },
+  {
+    "Job title": "HR",
+    "Key Performance Indicator": "Review performance > 20/week",
+    "Minimum rating": 1.1,
+    "Maximum rating": 100,
+    "Expected output": "fail"
+  },
+  {
+    "Job title": "HR",
+    "Key Performance Indicator": "Review performance > 25/week",
+    "Minimum rating": 1,
+    "Maximum rating": 99.9,
+    "Expected output": "fail"
+  },
+  {
+    "Job title": "Guard",
+    "Key Performance Indicator": "Work > 40h/week",
+    "Minimum rating": -1,
+    "Maximum rating": 90,
+    "Expected output": "fail"
+  },
+  {
+    "Job title": "Guard",
+    "Key Performance Indicator": "Work > 35h/week",
+    "Minimum rating": 0,
+    "Maximum rating": 90,
+    "Expected output": "success"
+  },
+  {
+    "Job title": "Guard",
+    "Key Performance Indicator": "Work > 30h/week",
+    "Minimum rating": 1,
+    "Maximum rating": 90,
+    "Expected output": "success"
+  },
+  {
+    "Job title": "Guard",
+    "Key Performance Indicator": "Work > 25h/week",
+    "Minimum rating": 10,
+    "Maximum rating": 99,
+    "Expected output": "success"
+  },
+  {
+    "Job title": "Guard",
+    "Key Performance Indicator": "Work > 20h/week",
+    "Minimum rating": 10,
+    "Maximum rating": 100,
+    "Expected output": "success"
+  },
+  {
+    "Job title": "Guard",
+    "Key Performance Indicator": "Work > 15h/week",
+    "Minimum rating": 10,
+    "Maximum rating": 101,
+    "Expected output": "fail"
+  },
+  {
+    "Job title": "Sales",
+    "Key Performance Indicator": "Sale > 10 products/week",
+    "Minimum rating": 50,
+    "Maximum rating": 10,
+    "Expected output": "fail"
+  },
+  {
+    "Job title": "Sales",
+    "Key Performance Indicator": "Sale > 15 products/week",
+    "Minimum rating": 50,
+    "Maximum rating": 50,
+    "Expected output": "fail"
+  }
+]
