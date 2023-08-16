@@ -13,7 +13,7 @@
     "Username": "testuser",
     "Status": "Enabled",
     "Change password": false,
-    "Expected output": "fail - Báo lỗi Employee name rỗng"
+    "Expected output": "error - Báo lỗi Employee name rỗng"
   },
   {
     "User role": "Admin",
@@ -21,7 +21,7 @@
     "Username": "testuser",
     "Status": "Enabled",
     "Change password": false,
-    "Expected output": "fail - Báo lỗi Employee name không tồn tại trong hệ thống"
+    "Expected output": "error - Báo lỗi Employee name không tồn tại trong hệ thống"
   },
   {
     "User role": "Admin",
@@ -29,7 +29,7 @@
     "Username": "1",
     "Status": "Enabled",
     "Change password": false,
-    "Expected output": "fail - Báo lỗi Username có độ dài chuỗi bé hơn 5"
+    "Expected output": "error - Báo lỗi Username có độ dài chuỗi bé hơn 5"
   },
   {
     "User role": "Admin",
@@ -49,7 +49,7 @@
     "Change password": true,
     "Password": "abcd",
     "Confirm password": "abcd",
-    "Expected output": "fail - Báo lỗi Password bé hơn 8"
+    "Expected output": "error - Báo lỗi Password bé hơn 8"
   },
   {
     "User role": "Admin",
@@ -59,7 +59,7 @@
     "Change password": true,
     "Password": "abcdef!!!!",
     "Confirm password": "abcdef!!!!",
-    "Expected output": "fail - Báo lỗi Password không chứa số"
+    "Expected output": "error - Báo lỗi Password không chứa số"
   },
   {
     "User role": "Admin",
@@ -69,7 +69,7 @@
     "Change password": true,
     "Password": "12345!!!!",
     "Confirm password": "12345!!!!",
-    "Expected output": "fail - Báo lỗi Password không chứa ký tự"
+    "Expected output": "error - Báo lỗi Password không chứa ký tự"
   },
   {
     "User role": "Admin",
@@ -79,7 +79,7 @@
     "Change password": true,
     "Password": "abcd1234",
     "Confirm password": "abcd1234",
-    "Expected output": "fail - Báo lỗi không chứa ký tự đặc biệt"
+    "Expected output": "error - Báo lỗi không chứa ký tự đặc biệt"
   },
   {
     "User role": "Admin",
@@ -89,6 +89,6 @@
     "Change password": true,
     "Password": "KhangQuach@1234",
     "Confirm password": "abcd1234!!!",
-    "Expected output": "fail - Báo lỗi Confirm password và Password không giống nhau"
+    "Expected output": "error - Báo lỗi Confirm password và Password không giống nhau"
   }
 ]

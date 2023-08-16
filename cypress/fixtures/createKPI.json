@@ -2,106 +2,129 @@
   {
     "Job title": "IT",
     "Key Performance Indicator": "Commit > 10/week",
-    "Minimum rating": 0,
-    "Maximum rating": 100,
-    "Expected output": "success"
+    "Minimum rating": 10,
+    "Maximum rating": 90,
+    "Make default scale": false,
+    "Expected output": "success - Tạo KPI thành công"
   },
   {
-    "Job title": "",
-    "Key Performance Indicator": "Commit > 10/week",
-    "Minimum rating": 0,
-    "Maximum rating": 100,
-    "Expected output": "fail"
-  },
-  {
-    "Job title": "HR",
+    "Job title": "IT",
     "Key Performance Indicator": "",
-    "Minimum rating": 0,
-    "Maximum rating": 100,
-    "Expected output": "fail"
+    "Minimum rating": 10,
+    "Maximum rating": 90,
+    "Make default scale": false,
+    "Expected output": "error - Không thể tạo KPI"
   },
   {
-    "Job title": "HR",
-    "Key Performance Indicator": "Review performance > 10/week",
-    "Minimum rating": -1,
-    "Maximum rating": 100,
-    "Expected output": "fail"
+    "Job title": "IT",
+    "Key Performance Indicator": " ",
+    "Minimum rating": 10,
+    "Maximum rating": 90,
+    "Make default scale": false,
+    "Expected output": "error - Không thể tạo KPI"
   },
   {
-    "Job title": "HR",
-    "Key Performance Indicator": "Review performance > 15/week",
-    "Minimum rating": 1,
-    "Maximum rating": 101,
-    "Expected output": "fail"
-  },
-  {
-    "Job title": "HR",
-    "Key Performance Indicator": "Review performance > 20/week",
-    "Minimum rating": 1.1,
-    "Maximum rating": 100,
-    "Expected output": "fail"
-  },
-  {
-    "Job title": "HR",
-    "Key Performance Indicator": "Review performance > 25/week",
-    "Minimum rating": 1,
-    "Maximum rating": 99.9,
-    "Expected output": "fail"
-  },
-  {
-    "Job title": "Guard",
-    "Key Performance Indicator": "Work > 40h/week",
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 11/week",
     "Minimum rating": -1,
     "Maximum rating": 90,
-    "Expected output": "fail"
+    "Make default scale": false,
+    "Expected output": "error - Không thể tạo KPI"
   },
   {
-    "Job title": "Guard",
-    "Key Performance Indicator": "Work > 35h/week",
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 12/week",
     "Minimum rating": 0,
     "Maximum rating": 90,
-    "Expected output": "success"
+    "Make default scale": false,
+    "Expected output": "success - Tạo KPI thành công"
   },
   {
-    "Job title": "Guard",
-    "Key Performance Indicator": "Work > 30h/week",
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 13/week",
     "Minimum rating": 1,
     "Maximum rating": 90,
-    "Expected output": "success"
+    "Make default scale": false,
+    "Expected output": "success - Tạo KPI thành công"
   },
   {
-    "Job title": "Guard",
-    "Key Performance Indicator": "Work > 25h/week",
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 13/week",
     "Minimum rating": 10,
     "Maximum rating": 99,
-    "Expected output": "success"
+    "Make default scale": false,
+    "Expected output": "success - Tạo KPI thành công"
   },
   {
-    "Job title": "Guard",
-    "Key Performance Indicator": "Work > 20h/week",
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 14/week",
     "Minimum rating": 10,
     "Maximum rating": 100,
-    "Expected output": "success"
+    "Make default scale": false,
+    "Expected output": "success - Tạo KPI thành công"
   },
   {
-    "Job title": "Guard",
-    "Key Performance Indicator": "Work > 15h/week",
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 15/week",
     "Minimum rating": 10,
     "Maximum rating": 101,
-    "Expected output": "fail"
+    "Make default scale": false,
+    "Expected output": "error - Không thể tạo KPI"
   },
   {
-    "Job title": "Sales",
-    "Key Performance Indicator": "Sale > 10 products/week",
-    "Minimum rating": 50,
-    "Maximum rating": 10,
-    "Expected output": "fail"
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 16/week",
+    "Minimum rating": "a",
+    "Maximum rating": 90,
+    "Make default scale": false,
+    "Expected output": "error - Không thể tạo KPI"
   },
   {
-    "Job title": "Sales",
-    "Key Performance Indicator": "Sale > 15 products/week",
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 18/week",
+    "Minimum rating": 10,
+    "Maximum rating": "a",
+    "Make default scale": false,
+    "Expected output": "error - Không thể tạo KPI"
+  },
+  {
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 19/week",
+    "Minimum rating": 10.1,
+    "Maximum rating": 90,
+    "Make default scale": false,
+    "Expected output": "error - Không thể tạo KPI"
+  },
+  {
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 20/week",
+    "Minimum rating": 10,
+    "Maximum rating": 90.9,
+    "Make default scale": false,
+    "Expected output": "error - Không thể tạo KPI"
+  },
+  {
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 21/week",
+    "Minimum rating": 60,
+    "Maximum rating": 50,
+    "Make default scale": false,
+    "Expected output": "error - Không thể tạo KPI"
+  },
+  {
+    "Job title": "IT",
+    "Key Performance Indicator": "Commit > 22/week",
     "Minimum rating": 50,
     "Maximum rating": 50,
-    "Expected output": "fail"
+    "Make default scale": false,
+    "Expected output": "error - Không thể tạo KPI"
+  },
+  {
+    "Job title": "--Select--",
+    "Key Performance Indicator": "Commit > 23/week",
+    "Minimum rating": 10,
+    "Maximum rating": 90,
+    "Make default scale": false,
+    "Expected output": "error - Không thể tạo KPI"
   }
 ]

@@ -16,14 +16,6 @@
     "Expected result": "fail"
   },
   {
-    "Job title": "Test job",
-    "Vacancy name": "Tuyển dụng thực tập sinh 3",
-    "Hiring manager": "Khang Quach",
-    "Number of positions": 10,
-    "Description": "test",
-    "Expected result": "success"
-  },
-  {
     "Job title": "IT",
     "Vacancy name": "",
     "Hiring manager": "Khang Quach",
