@@ -120,7 +120,7 @@
     "Expected output": "error - Không thể tạo KPI"
   },
   {
-    "Job title": "--Select--",
+    "Job title": "",
     "Key Performance Indicator": "Commit > 23/week",
     "Minimum rating": 10,
     "Maximum rating": 90,
